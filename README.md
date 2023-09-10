@@ -1,12 +1,13 @@
 # receita_spring_mysql
 
-## Spring Initializr
-Acesse https://start.spring.io/
+## spring Initializr
+acesse https://start.spring.io/
 
 
-Dependências: 
+dependências: 
 * Spring Boot DevTools
 * Spring Web
+* Spring Data
 * Validation
 * Spring Security
 * MySQL Driver
@@ -28,3 +29,7 @@ spring.data.web.sort.sort-parameter=ordem
 server.error.include-stacktrace=never 
 api.security.token.secret=${JWT_SECRET:12345678} 
 ```
+
+## spring security
+
+após adicionar a dependência do spring security, é necessário configurar a autenticação e autorização do projeto
