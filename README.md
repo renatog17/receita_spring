@@ -32,4 +32,10 @@ api.security.token.secret=${JWT_SECRET:12345678}
 
 ## spring security
 
-após adicionar a dependência do spring security, é necessário configurar a autenticação e autorização do projeto
+após adicionar a dependência do spring security, é necessário configurar a autenticação e autorização do projeto.
+
+## flyway migration
+
+por último, é necessário criar o script de criação da tablea 'usuarios' e adicionar um usuario.
+
+concluídos os passos acima, o projeto estará pronto para desenvolvimento.
