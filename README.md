@@ -10,6 +10,7 @@ dependências:
 * Spring Data
 * Validation
 * Spring Security
+* JWT Token
 * MySQL Driver
 * Flyway Migration
 * Flyway Migration MySQL
@@ -37,5 +38,12 @@ após adicionar a dependência do spring security, é necessário configurar a a
 ## flyway migration
 
 por último, é necessário criar o script de criação da tablea 'usuarios' e adicionar um usuario.
-
+```
+create table usuarios(
+    id bigint not null auto_increment,
+    login varchar(100) not null,
+    senha varchar(255) not null,
+    primary key(id)
+);
+```
 concluídos os passos acima, o projeto estará pronto para desenvolvimento.
