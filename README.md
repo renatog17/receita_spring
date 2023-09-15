@@ -4,7 +4,7 @@
 acesse https://start.spring.io/
 
 
-dependências: 
+inclu as seguintes dependências: 
 * Spring Boot DevTools
 * Spring Web
 * Spring Data
